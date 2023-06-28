@@ -21,7 +21,7 @@ export async function getCurrentWeatherData(city) {
   try {
     if(city){
       const response = await fetch(
-        `http://api.weatherapi.com/v1/forecast.json?key=${apikey}&q=${city}`
+        `https://api.weatherapi.com/v1/forecast.json?key=${apikey}&q=${city}`
       );
       return await response.json();
     }
