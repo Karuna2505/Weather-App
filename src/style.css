@@ -1,0 +1,49 @@
+body {
+  background-color: #b8c3e2;
+  margin: 0%;
+  padding: 0;
+  background-image: url("https://i.pinimg.com/564x/15/c1/86/15c186c42bf52d77a32cd7324522c8dd.jpg");
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+footer {
+  background-color: #eae4e9;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+footer p {
+  padding-top: 0.5rem;
+  color: black;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  main {
+    display: block;
+  }
+}
